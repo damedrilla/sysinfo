@@ -1,0 +1,28 @@
+{
+  "name": "sysinfo_test",
+  "version": "1.0.0",
+  "description": "raspberry pi sysinfo rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dota1g/sysinfo.git"
+  },
+  "author": "dota1g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dota1g/sysinfo/issues"
+  },
+  "homepage": "https://github.com/dota1g/sysinfo#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "humanize-duration": "^3.32.0",
+    "mysql2": "^3.6.0",
+    "os-utils": "^0.0.14",
+    "systeminformation": "^4.34.23"
+  }
+}
